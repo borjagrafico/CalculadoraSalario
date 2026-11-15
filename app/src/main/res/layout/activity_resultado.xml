@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado del salario"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/resultadoBruto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salario bruto:"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/resultadoIrpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retención IRPF:"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/resultadoDeducciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deducciones:"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/resultadoNeto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salario neto:"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/botonVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver" />
+
+</LinearLayout>
